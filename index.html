@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-	<title>Counter App by Sheyste Benerable</title>
-	<link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-	<div class="container">
-		<h1>Counter App</h1>
-		<h3>by</h3>
-		<h3>Sheyste Benerable</h3>
-		<br>
-		<div class="counter">
-			<button id="decrement-btn">-</button>
-			<div id="counter-value">0</div>
-			<button id="increment-btn">+</button>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+		<div class="app">
+			<h1>Counter:</h1>
+			<h2 id="count-el">0</h2>
+			<button id="decrement-btn" onclick="decrement()">DECREASE</button>
+			<button id="increment-btn" onclick="increment()">INCREASE</button>
+			<br>
+			<button id="save-btn" onclick="save()">SAVE</button>
+			<br>
+			<button id="reset-btn" onclick="reset()">RESET</button>
+			<p id="save-el">Previous count: </p>
 		</div>
-		<button id="reset">Reset</button>
-	</div>
-
-	<script src="script.js"></script>
-</body>
-
+        <script src="script.js">
+        </script>
+	<footer>
+        <p>&copy; 2023 Sheyste Benerable</p>
+    </footer>
+    </body>
 </html>
