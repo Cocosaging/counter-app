@@ -1,5 +1,8 @@
 # counter-app
 A simple counter app made in Javascript
 
+Output Link: sheyste.me/counter-app
 
-![Screenshot 2023-10-25 204923](https://github.com/Cocosaging/counter-app/assets/86936264/03b95204-c37c-4140-b6e4-fd24d8d15160)
+
+![image](https://github.com/Cocosaging/counter-app/assets/86936264/130c2cdb-5764-4848-9cd8-0318462b5dea)
+
