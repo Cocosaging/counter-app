@@ -58,21 +58,21 @@ button {
     transition: background 0.3s ease;
 }
 
-/* Add a hover effect to change the background color on hover */
+
 #increment-btn:hover {
-    background: lightgreen; /* Change to a lighter green when hovered */
+    background: lightgreen; 
 }
 
 #decrement-btn:hover {
-    background: orangered; /* Change to a lighter red when hovered */
+    background: orangered; 
 }
 
 #save-btn:hover {
-    background: lightblue; /* Change to a lighter blue when hovered */
+    background: lightblue; 
 }
 
 #reset-btn:hover {
-    background: lightgrey; /* Change to a lighter grey when hovered */
+    background: lightgrey; 
 }
 
 
